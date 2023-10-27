@@ -8,15 +8,14 @@ body {
 input::placeholder,
 textarea::placeholder {
   font-family: "Montserrat", sans-serif;
-  color: #aaa;
 }
 
 input:focus,
-textarea:focus{
+textarea:focus {
   outline: none;
 }
 
-a, 
+a,
 nav button {
   text-decoration: none;
   background-color: transparent;
@@ -25,16 +24,15 @@ nav button {
   transition: 0.4s;
   font-size: 1em;
   cursor: pointer;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-seri;
 }
 
 a:hover,
-nav button:hover{
-  color: #bbb
+nav button:hover {
+  color: #bbb;
 }
 
 /* form styles */
-
 form {
   max-width: 40%;
   margin: 0 auto;
@@ -46,22 +44,27 @@ label {
   margin-bottom: 1em;
 }
 
-label  span {
-  margin-bottom: .3em;
+label span {
+  margin-bottom: 0.3em;
   font-weight: bold;
   text-align: left;
 }
 
-input, 
+input,
 textarea {
   box-sizing: border-box;
   border: none;
   border-bottom: 1px solid #ccc;
-  padding: .8em 0;
+  padding: 0.8em 0em;
   background-color: transparent;
 }
 
-.btn{
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
+}
+
+.btn {
   background-color: #1a8918;
   color: #fff;
   text-align: center;
@@ -73,7 +76,6 @@ textarea {
   padding: 10px 15px;
   font-size: 1em;
 }
-
 
 .btn.btn-dark {
   background-color: #000;
@@ -93,17 +95,16 @@ textarea {
   color: #fff;
 }
 
-.btn.btn-outline:hover{
+.btn.btn-outline:hover {
   background-color: #000;
 }
 
-
-.btn.btn-danger:hover{
+.btn.btn-danger:hover {
   background-color: #dc3545;
 }
 
 button[disabled] {
-  background-color: #AAA;
+  background-color: #aaa;
 }
 
 .container .error {
